@@ -29,7 +29,7 @@ const giveaway = document.querySelector('.giveaway');
 const deadline = document.querySelector('.deadline');
 const items = document.querySelectorAll('.deadline-format h4')
 
-const futureDate = new Date(2021, 6, 5, 21, 0, 0)
+const futureDate = new Date(2021, 6, 1, 21, 0, 0)
 console.log(futureDate.toLocaleString());
 
 const year = futureDate.getFullYear(); 
